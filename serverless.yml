@@ -60,6 +60,8 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
+  createUser:
+    handler: src/functions/createUser.createUser
   testFunction:
     handler: src/functions/testFunction.testFunction
   hello:
